@@ -96,7 +96,7 @@ def reduxY(c):
 
 
 def main():
-    print parse("ab 5 minus 4 5")
+    print parse("plus 5 minus 4 5")
 
 
 main()
