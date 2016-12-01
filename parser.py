@@ -1,9 +1,12 @@
-""" E -> R | F E E
+""" Grammar (which is LL(1)) is defined as follows:
+
+    E -> R | F E E
     R -> N | -N
     N -> nX
     X -> nX | epsilo
     F -> aY
     Y -> aY | epsilo
+
 """
 
 
