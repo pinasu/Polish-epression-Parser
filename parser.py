@@ -3,9 +3,9 @@
     E -> R | F E E
     R -> N | -N
     N -> nX
-    X -> nX | epsilo
+    X -> nX | epsilon
     F -> aY
-    Y -> aY | epsilo
+    Y -> aY | epsilon
 
 """
 
